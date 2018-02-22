@@ -2,9 +2,6 @@ package com.example.administrator.wsretrofit;
 
 import android.content.Context;
 
-/**
- * Description
- */
 public class AppContext {
     private static final Object lock = new Object();
     private static AppContext appInstance;
