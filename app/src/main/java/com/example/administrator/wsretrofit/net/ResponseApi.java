@@ -20,8 +20,7 @@ public interface ResponseApi {
     @FormUrlEncoded
     @POST(UrlConstants.App.GET_WEATHER)
     Call<WeatherBean> getWeatherInfo(@Field("appkey") String appkey,
-                                     @Field("city") String format);
-
+                                      @Field("city") String format);
 
     /* @FormUrlEncoded
     @POST(UrlConstants.App.APP_LOGIN)
